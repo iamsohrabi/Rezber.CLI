@@ -1,0 +1,12 @@
+[Unit]
+Description=Rezber CLI background service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/opt/Rezber/Rezber service
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

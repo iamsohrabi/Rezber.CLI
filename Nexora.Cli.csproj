@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Rezber</AssemblyName>
+    <RootNamespace>Rezber.CLI</RootNamespace>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>false</SelfContained>
+
+    <PackageId>Fundation.Validation</PackageId>
+    <Version>1.0.0</Version>
+
+    <Authors>Mehrdad Sohrabi</Authors>
+    <Description>Rezber CLI for signing in to a Rezber server, installing packages into .NET projects, publishing package files, and running the client as a service.</Description>
+
+  </PropertyGroup>
+</Project>
